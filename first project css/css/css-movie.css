@@ -1,0 +1,139 @@
+#flex-container
+{
+    width: 100%;
+}
+
+/* ................................................................................................................. */
+
+@media (max-width:800px)
+{
+    #flex-title
+    {
+        flex-direction: column;
+        background-color: none;
+    }
+}
+
+
+#flex-title
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    font-family: Amiri, cairo, sofia, tahoma, sans-serif;
+}
+
+#photo-title
+{
+    order: 1;
+    max-width: 20%;
+    min-width: 20%;
+    border-radius: 1em;
+    align-self: center;
+}
+
+#information-title
+{
+    order: 2;
+    min-width: 50%;
+    height: auto;
+    align-self: center;
+    direction: rtl;
+    text-align: right;
+}
+
+#top-title
+{
+    border-bottom: 1px solid gray;
+    margin-top: 2%;
+}
+
+#center-title
+{
+    border-bottom: 1px solid gray;
+    margin-top: 2%;
+}
+
+#bottom-title
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/* ................................................................................................................. */
+
+#flex-top
+{
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 3px solid gray;
+    border-bottom: 3px solid gray;
+}
+
+@media (max-width:800px)
+{
+    #flex-top
+    {
+        flex-direction: column;
+    }
+}
+
+#movie
+{
+    max-width: 40%;
+    height: 100%;
+    align-self: center;
+    margin: 2% 0% 2% 5%; 
+    border: 2px solid gray;
+    border-radius: 2em;
+}
+
+#information
+{
+    height: 80%;
+    margin: 0% 5% 0% 5%;
+    align-self: center;
+    direction: rtl;
+    text-align: right;
+    font-family: Amiri, cairo, sofia, tahoma, sans-serif;
+}
+
+/* ................................................................................................................. */
+
+#flex-bottom
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (max-width:800px)
+{
+    #flex-bottom
+    {
+        flex-direction: column;
+    }
+}
+
+#link
+{
+    width: 30%;
+    direction: rtl;
+    text-align: center;
+    font-family: Amiri, cairo, sofia, tahoma, sans-serif;
+}
+
+a#download img
+{
+    background-color: rgb(240, 239, 239);
+    border: 1px solid gray;
+    border-radius: 0.3em;
+    margin-bottom: 2%;
+}
