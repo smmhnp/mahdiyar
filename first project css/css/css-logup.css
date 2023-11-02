@@ -1,0 +1,107 @@
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container
+{
+    width: 70%;
+    padding: 2% 0% 2% 0%;
+    background-color: rgb(240, 239, 239);
+    border-radius: 0.5em;
+    box-shadow: 5px 5px 5px silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form
+{
+    text-align: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset
+{
+    border-radius: 0.5em;
+    border-color: green;
+    border-width: 3px;
+    border-style: solid;
+    direction: rtl;
+    font-family: monospace;
+}
+
+#information-flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Quran, Cairo, Amiri, sofia, tahoma, arial, sans-serif !important;
+    direction: rtl;
+}
+
+@media (max-width:700px)
+{
+    #information-flex
+    {
+        flex-direction: column;
+    }
+}
+
+#text
+{
+    width: 40%;
+    font-family: Quran, Cairo, Amiri, sofia, tahoma, arial, sans-serif !important;
+}
+
+@media (max-width:600px)
+{
+    #text
+    {
+        width: 100%;
+    }
+}
+
+input[type]
+{
+    width: 50%;
+}
+
+@media (max-width:700px)
+{
+    input[type]
+    {
+        width: 90%;
+    }
+}
+
+#send
+{
+    background-image: url('../file/sendbutton.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(20, 109, 15);
+    border: 2px solid gray;
+    border-radius: 0.3em;
+}
+
+#logup-link
+{
+    color: green;
+    text-decoration: none;
+    font-family: Quran, Cairo, Amiri, sofia, tahoma, arial, sans-serif !important;
+}
+
+#logup-link:hover
+{
+    font-size: large;
+    font-weight: bolder;    
+    font-family: Quran, Cairo, Amiri, sofia, tahoma, arial, sans-serif !important;
+}
+
