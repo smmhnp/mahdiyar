@@ -1,0 +1,91 @@
+#body-full
+{
+    background-color: beige;
+    direction: rtl;
+}
+
+#body
+{
+    background-color: beige;
+    direction: rtl;
+}
+
+#title-news
+{
+    width: 60%;
+    height: auto;
+    margin: 5% auto 5%;
+    text-align: center;
+    font-family: Tahoma,'Segoe UI', Geneva, Verdana, sans-serif;
+    border-top: 3px outset gray;
+    padding-top: 10px;
+}
+
+#text-1
+{
+    width: 90%;
+    height: auto;
+    margin: 5% auto 2%;
+    text-align: right;
+    text-indent: 1.5cm;
+    font-family: Amiri, cairo, sofia, tahoma, sans-serif;
+}
+
+#text-2
+{
+    width: 90%;
+    height: auto;
+    margin: 2% auto 0%;
+    text-align: right;
+    text-indent: 1.5cm;
+    font-family: Amiri, cairo, sofia, tahoma, sans-serif;
+}
+
+#photo-news
+{
+    width: 90%;
+    height: 320px;
+    margin: 2% auto 2%;
+    padding: 10px 0px 10px 0px;
+}
+
+#image
+{
+    width: 60%;
+    height: 70%;
+    border: 3px solid gray;
+    border-radius: 1em;
+    margin: 0% 28% 0% 0%;
+    animation-name: image;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+
+}
+
+@keyframes image 
+{
+    from
+    {
+        width: 500px;
+        height: 300px;
+        border: 3px solid gray;
+        border-radius: 1em;
+        margin: 0% 28% 0% 0%;
+    }   
+    to 
+    {
+        width: 505px;
+        height: 303px;
+        border: 3px solid gray;
+        border-radius: 1em;
+        margin: 0% 28% 0% 0%;
+    } 
+}
+
+.li
+{
+    list-style-type: none;
+    list-style-image: url(../file/arrow.png);
+    text-indent: 0.5cm;
+}
