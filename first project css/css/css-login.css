@@ -1,0 +1,189 @@
+body
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container
+{
+    background-color: rgb(240, 239, 239);
+    width: 40%;
+    height: 60%;
+    box-shadow: 5px 5px 5px silver;
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-width:600px)
+{
+    #container
+    {
+        width: 50%;
+    }
+}
+
+#information-flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Quran, Cairo, Amiri, sofia, tahoma, arial, sans-serif !important;
+    direction: rtl;
+}
+
+@media (max-width:800px)
+{
+    #information-flex
+    {
+        flex-direction: column;
+    }
+}
+
+form
+{
+    text-align: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset
+{
+    border-radius: 0.5em;
+    border-color: green;
+    border-width: 3px;
+    border-style: solid;
+    direction: rtl;
+    font-family: monospace;
+}
+
+input[type="text"] ,input[type="password"]
+{
+    width: 50%;
+}
+
+@media (max-width:1000px)
+{
+    input[type="text"] ,input[type="password"]
+    {
+        width: 90%;
+    }
+}
+
+#top-flex
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width:1000px)
+{
+    #top-flex
+    {
+        flex-direction: column;
+    }
+}
+
+#bottom-flex
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2% 0% 2% 0%;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width:1000px)
+{
+    #bottom-flex
+    {
+        flex-direction: column;
+    }
+}
+
+
+#text
+{
+    width: 50%;
+    font-family: Quran, Cairo, Amiri, sofia, tahoma, arial, sans-serif !important;
+}
+
+@media (max-width:1000px)
+{
+    #text
+    {
+        width: 80%;
+    }
+}
+
+#send-flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2% 0% 5% 0%;
+    align-items: center;
+}
+
+#send
+{
+    width: 50%;
+    height: 25px;
+    background-image: url('../file/sendbutton.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(20, 109, 15);
+    border: 2px solid gray;
+    border-radius: 0.3em;
+    order: 2;
+}
+
+@media (max-width:1000px)
+{
+    #send
+    {
+        margin-top: 2%;
+        width: 90%;        
+    }
+}
+
+@media (max-width:1000px)
+{
+    #send-flex
+    {
+        flex-direction: column;
+        margin: 7% 0% 5% 0%;      
+    }
+}
+
+#logup-text
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Quran, Cairo, Amiri, sofia, tahoma, arial, sans-serif;
+    direction: rtl;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logup-link
+{
+    color: green;
+    text-decoration: none;
+}
+
+#logup-link:hover
+{
+    font-size: large;
+    font-weight: bolder;
+}
