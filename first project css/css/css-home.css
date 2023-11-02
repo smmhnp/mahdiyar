@@ -1,0 +1,80 @@
+#body-full
+{
+    background-color: beige;
+}
+
+#body
+{
+    background-color: beige;
+    direction: rtl;
+}
+
+.information
+{
+    width: 90%;
+    height: 32%;
+    margin: 0% 5% 1% 5%;
+    border-radius: 2em;
+    background-color: green;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+#information
+{
+    width: 90%;
+    height: 32%;
+    margin: 0% 5% 1% 5%;
+    border-radius: 2em;
+    background-color: green;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.title-home
+{
+    margin-right: 6%;
+    margin-bottom: 6px;
+    margin-top: 3px;
+    display: inline-block;
+    overflow-y: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.container-flex
+{
+    display: flex;
+    width: 90%;
+    margin: 0% auto 2%;
+    padding: 1% 2% 1% 2%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    background-color: green;
+    border-radius: 2em;
+}
+
+.photo
+{
+    width: 15%;
+    height: 70%;
+    border: 2px solid gray;
+    border-radius: 2em;
+}
+
+.text
+{
+    width: 88%;
+    font-family: Amiri, cairo, sofia, tahoma, sans-serif;
+    height: auto;
+    margin: 3% 6% 7% 6%;
+    direction: rtl;
+}
+
